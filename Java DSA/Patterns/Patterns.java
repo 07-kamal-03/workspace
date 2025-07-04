@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package Patterns;
+
 public class Patterns{
     public static void pattern1 (){  //Time complexity: O(N^2)
         for(int i=0;i<4;i++){

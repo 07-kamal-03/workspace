@@ -1,3 +1,5 @@
+package BasicMath;
+
 import java.util.*;
 public class basicMaths{
 	public static void digits(int n){
