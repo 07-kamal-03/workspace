@@ -1,0 +1,10 @@
+Encapsulation is a bundles the data and the code on the data in a single unit also the DATA HIDING
+
+step:
+1. Declare the variables of a Class as Private
+2. provide the public getter & setter method for modify and view the value of the variable
+
+
+Advantages:
+1. Loosely coupled code
+2. Better access and Data security

@@ -1,0 +1,9 @@
+Polymorphism:
+poly - many
+morphism - forms
+
+same methos behave diffrently in different suitation
+
+types:
+-> compile time/ static polymorphism/ method overloading
+-> run time/ dynamic polymorphism/ method overriding

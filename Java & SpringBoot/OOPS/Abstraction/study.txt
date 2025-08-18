@@ -1,0 +1,25 @@
+Data Abstration
+|
+|
+---> It hides the implementations from the user and show only the essection functionality only to the user.
+---> It can be achieved through the Interface and the abstract class.
+
+
+Advantages:
+
+---> Increase the security and confidentiality.
+
+
+-----------------------------------------------------------------------------------
+
+
+ the implementation implement in the abstract class and method
+
+abstarct class Demo implements interface{
+
+abstract method(){
+
+}
+}
+
+ show essential funtionality through the interface

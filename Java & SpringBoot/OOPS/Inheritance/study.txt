@@ -1,0 +1,23 @@
+Inheritance
+
+-> inherit the properties from the parent class
+-> inhert both functions and variables, don't want to rewrite in child class
+-> extends keyword
+
+types:
+
+-> single=> A->B
+-> multilevel=> A->B->C
+
+                  --->B
+                  |
+-> hierarchical=> A
+                  |
+                  --->C
+
+-> multiple A-->|
+                C  using class is not possible so using interface to possible A,B - interface && C- class
+            B-->|
+
+Advantages:
+-> code reusability
