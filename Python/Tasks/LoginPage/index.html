@@ -1,0 +1,49 @@
+<!doctype html>
+<body>
+  <h3>JWT demo</h3>
+  <input id="email" placeholder="email"/><br>
+  <input type="password" id="pw" placeholder="password"/><br>
+  <button onclick="register()">Register</button>
+  <button onclick="login()">Login</button>
+  <button onclick="callProtected()">Call protected</button>
+  <button onclick="refresh()">Refresh</button>
+  <button onclick="logout()">Logout (revoke access)</button>
+  <pre id="out"></pre>
+
+<script>
+async function register(){
+  const res = await fetch('/register', {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({email: document.getElementById('email').value, password: document.getElementById('pw').value})
+  });
+  document.getElementById('out').innerText = await res.text();
+}
+async function login(){
+  const res = await fetch('/login', {
+    method:'POST', headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({email: document.getElementById('email').value, password: document.getElementById('pw').value})
+  });
+  const data = await res.json();
+  localStorage.setItem('access', data.access_token);
+  localStorage.setItem('refresh', data.refresh_token);
+  document.getElementById('out').innerText = JSON.stringify(data, null, 2);
+}
+async function callProtected(){
+  const token = localStorage.getItem('access');
+  const res = await fetch('/protected', { headers: { Authorization: 'Bearer ' + token }});
+  document.getElementById('out').innerText = await res.text();
+}
+async function refresh(){
+  const token = localStorage.getItem('refresh');
+  const res = await fetch('/refresh', { method: 'POST', headers: { Authorization: 'Bearer ' + token }});
+  const data = await res.json();
+  if (data.access_token) localStorage.setItem('access', data.access_token);
+  document.getElementById('out').innerText = JSON.stringify(data, null, 2);
+}
+async function logout(){
+  const token = localStorage.getItem('access');
+  const res = await fetch('/logout_access', { method:'DELETE', headers: { Authorization: 'Bearer ' + token }});
+  document.getElementById('out').innerText = await res.text();
+}
+</script>
+</body>

@@ -111,3 +111,45 @@ from curses.ascii import isalpha
 #     def greeting(self):
 #         return f"Hello! I am {self.name} and I am {self.age} years old."
 
+# ---------------------------------------------------------------------------
+
+# try:
+#     x = int(input("what is the x? "))
+# except Exception as e:
+#     print(e)
+# else:
+#     print(x)
+
+
+# --------------------------------------------------------------------------
+
+# def demo(a,b,c):
+#     print(a+b+c)
+#
+# nums = (1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1)
+# demo()
+#
+# def demo(**kwargs):
+#     print(kwargs)
+#
+# nums = {"name":"kamal", "age":23}
+# demo(**nums)
+
+# ------------------------------------------------------------------------
+import time
+def timer(func):
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        result = func(*args, **kwargs)
+        end = time.time()
+        print("Execution time taken: ", round(end-start, 5))
+        return result
+    return wrapper
+
+@timer
+def demo():
+    for i in range(10):
+        print("Kamalraj")
+
+
+demo()

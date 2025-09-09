@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed10c7da-45f2-47f3-998b-e993ba160173" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Java &amp; SpringBoot/OOPS/Abstraction/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java &amp; SpringBoot/OOPS/Abstraction/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java &amp; SpringBoot/OOPS/Abstraction/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java &amp; SpringBoot/OOPS/Encapsulation/study.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java &amp; SpringBoot/TestImplements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/LongestSubarraySumK_Positives.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Arrays/PascalTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/Tasks/Task-1/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Python/Tasks/Task-1/person.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AI-RTM" beforeDir="false" afterPath="$PROJECT_DIR$/../AI-RTM" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays/FindNumberAppearsOnce.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/FindNumberAppearsOnce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java DSA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java DSA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/Longest_Consecutive_Sequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/Longest_Consecutive_Sequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java DSA/Arrays/Longest_Consecutive_Sequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java DSA/Arrays/Longest_Consecutive_Sequence.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,44 +35,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArraySorting.executor": "Run",
-    "Application.BubbleSort.executor": "Run",
-    "Application.Escapechar.executor": "Run",
-    "Application.FindLargestElement.executor": "Run",
-    "Application.FindMissingNumber.executor": "Run",
-    "Application.FindNumberAppearsOnce.executor": "Run",
-    "Application.FindUnion.executor": "Run",
-    "Application.Hashing.executor": "Run",
-    "Application.Insertion.executor": "Run",
-    "Application.Leaders_of_the_Array.executor": "Run",
-    "Application.LeftRotateByKplaces.executor": "Run",
-    "Application.LeftRotateByOnePlace.executor": "Run",
-    "Application.LongestSubarraySumK_Positives.executor": "Run",
-    "Application.MajorityElement.executor": "Run",
-    "Application.MaximumConsecutiveOnes.executor": "Run",
-    "Application.MaximumSubarraySum.executor": "Run",
-    "Application.MergeSort.executor": "Run",
-    "Application.MoveZerosToEnd.executor": "Run",
-    "Application.NextPermutation.executor": "Run",
-    "Application.PascalTriangle.executor": "Run",
-    "Application.QuickSort.executor": "Run",
-    "Application.RearrangeArrayBySign.executor": "Run",
-    "Application.Recursions.executor": "Run",
-    "Application.Selection.executor": "Run",
-    "Application.SortArray0s1s2s.executor": "Run",
-    "Application.Stock_Buy_Sell.executor": "Run",
-    "Application.TwoSum.executor": "Run",
-    "Application.demo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/KamalrajD/Documents/workspace/CED POC/Team-chatbot/chatbot"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArraySorting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Escapechar.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindLargestElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindNumberAppearsOnce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindUnion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Hashing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Insertion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Leaders_of_the_Array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftRotateByKplaces.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftRotateByOnePlace.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubarraySumK_Positives.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Longest_Consecutive_Sequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumConsecutiveOnes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumSubarraySum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZerosToEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NextPermutation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PascalTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RearrangeArrayBySign.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursions.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Selection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Set_Matrix_Zero.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortArray0s1s2s.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Stock_Buy_Sell.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/KamalrajD/Documents/workspace/CED POC/Team-chatbot/chatbot&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="LongestSubarraySumK_Positives" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.LongestSubarraySumK_Positives" />
