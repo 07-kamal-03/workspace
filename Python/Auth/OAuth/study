@@ -1,0 +1,20 @@
+https://youtu.be/3Gx3e3eLKrg?si=ZYg2YExgaPmjWJxr ---> detailed explanation of the OAuth 2.0
+
+resource owner - client(insta) - gmail authorization server - gmail server
+
+1. client register with GMAS - response from GMAS [client id, client secret key]
+2. resource owner(user) tap sign in / sign up in client then client redirect with GMAS and
+    request Auth code, in GMAS login using gmail and give consent (client can use my data)
+3. GMAS provide the Auth code
+4. Using Auth code the client request for the Token
+5. GMAS provide the token (time limit) with refresh token (if the token expired using refresh token to regenerate the new token (one time limit & refresh token again))
+6. the client using the token request for the user data to the Gmail server
+7. the Gmail server validate with GMAS (token valid / invalid)
+8. if valid Gmail server provide the data to the client / invalid return the not valid (error)
+9. client successfully login / failed
+
+
+types:
+1. implicit grant - without auth code step directly request to get the token (don't have refresh token)
+2. Resource owner credentials grant - using the users username and password directly to get the token (has refresh token)
+3. client credential grant - user and client both are same, using client id and client secret to get the token (don't have refresh token)
